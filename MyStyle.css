@@ -1,0 +1,258 @@
+ul{
+    list-style-type: none;
+    padding: 5px;
+    margin-top: 0px;
+    margin-right: justify;
+    overflow: hidden;
+    background-color: black;
+    background: linear-gradient(rgb(255, 255, 255), rgba(0, 0, 0, 0.567));
+    box-shadow: 4px 7px 6px black ;
+}
+li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float:left;
+    display:ruby-text-container;
+    color:rgb(5, 0, 9);
+    padding:10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 3px solid;
+    min-width: 60px;
+}
+a:link{
+    color:rgb(46, 46, 255);
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    background-color:black;
+    animation: change_color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes change_color {
+    50%{background-color: grey;}
+}
+body.home{
+background:linear-gradient(white,powderblue); 
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+background-attachment: fixed;
+}
+img.pic{
+    border: 3px solid;
+    box-shadow: 10px 10px 13px black;
+    display: block;
+    margin: auto;
+}
+#name_sect{
+    text-align: center;
+    background-color: rgb(81, 81, 81);
+    color: whitesmoke;
+    border: 1px solid;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 5px blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#bio{
+    text-align:center;
+    background-color: rgb(81, 81, 81);
+    color: whitesmoke;
+    border: 1px solid;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin: auto;
+    box-shadow: 5px 5px 5px blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#ndaa{
+    width: auto;
+    height:auto;
+    background: rgb(81, 81, 81);
+    font-size:50px;
+    text-align: center;
+    color: whitesmoke;
+    margin:0px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: move;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+}
+@keyframes move {
+50%{transform: scale(0.5,0.5);}
+}
+body.aboutPage{
+    background-image: url("Art_role-of-Mathematics-845x321.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#A, #B, #C, #D, #E{
+    width: auto;
+    height:auto;
+    background: rgb(8, 43, 55);
+    text-align: center;
+    color: whitesmoke;
+    margin:0px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#linkedin{
+    background-color:rgb(48, 112, 202);
+    border: 1px solid;
+    height:auto;
+    width:auto;
+    text-align: center;
+    margin:0px;
+    box-shadow: 5px 5px 5px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contacting{
+    width: auto;
+    height:auto;
+    background-color:rgb(63, 35, 164);
+    text-align: center;
+    color: white;
+    margin:0px;
+    box-shadow: 5px 5px 5px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#whatsapp{
+    width: auto;
+    height: auto;
+    background-color: green;
+    margin:0px;
+    box-shadow:5px 5px 5px black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#email{
+    width: auto;
+    height: auto;
+    margin:0px;
+    background-color: rgb(194, 194, 199);
+    box-shadow:5px 5px 5px black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body.ContactMe{
+    background:linear-gradient(white,rgb(16, 11, 182)); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+}
+#alt{
+    width: auto;
+    height:auto;
+    background-color:rgb(63, 35, 164);
+    text-align: center;
+    color: white;
+    margin:0px;
+    box-shadow: 5px 5px 5px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#a1{
+    width: 50px;
+    height: auto;
+    background-color: rgb(88, 32, 151);
+    color: antiquewhite;
+    border-radius: 30px;
+    margin:0px;
+    box-shadow:5px 5px 5px black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation:twist_move;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+#a2{
+    width: 50px;
+    height: auto;
+    background-color: rgb(104, 25, 187);
+    color: antiquewhite;
+    border-radius: 30px;
+    margin:0px;
+    box-shadow:5px 5px 5px black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation:twist_move2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+#a3{
+    width: 50px;
+    height: auto;
+    background-color: rgb(73, 36, 185);
+    color: antiquewhite;
+    border-radius: 30px;
+    margin:0px;
+    box-shadow:5px 5px 5px black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation:twist_move3;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+@keyframes twist_move {
+    30%{transform: matrix(4, 0, 0, 4, 200, -200);}
+}
+@keyframes twist_move2 {
+    60%{transform: matrix(4, 0, 0, 4, 200, -200);}
+}
+@keyframes twist_move3 {
+    90%{transform: matrix(4, 0, 0, 4, 100, -200);}
+}
+body.Projects{
+    background-image: url("codecode.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#uList1{
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    background:linear-gradient(gray, rgb(42, 42, 42));
+    color: antiquewhite;
+    border-radius: 30px;
+    margin:0px;
+    box-shadow:5px 5px 5px black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#uList2{
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    background:linear-gradient(gray, rgb(35, 35, 35));
+    color: antiquewhite;
+    border-radius: 30px;
+    margin:0px;
+    box-shadow:5px 5px 5px black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#h1_uList{
+    list-style-type: none;
+    width: auto;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.537), white);
+    color: black;
+    border-radius: 5px;
+    margin:0px;
+    box-shadow:5px 5px 5px black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
