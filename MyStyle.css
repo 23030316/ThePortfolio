@@ -41,7 +41,7 @@ background-position: center;
 background-size: contain;
 background-attachment: fixed;
 }
-img.pic{
+#pic{
     border: 3px solid;
     box-shadow: 10px 10px 13px black;
     display: block;
